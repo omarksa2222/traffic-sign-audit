@@ -1,0 +1,44 @@
+ClassId,annotation_count,class_name
+0,210,Speed limit 20 km/h
+1,2220,Speed limit 30 km/h
+2,2250,Speed limit 50 km/h
+3,1410,Speed limit 60 km/h
+4,1980,Speed limit 70 km/h
+5,1860,Speed limit 80 km/h
+6,420,End speed limit 80
+7,1440,Speed limit 100 km/h
+8,1410,Speed limit 120 km/h
+9,1470,No passing
+10,2010,No passing >3.5t
+11,1320,Right-of-way at intersection
+12,2100,Priority road
+13,2160,Yield
+14,780,Stop
+15,630,No vehicles
+16,420,No vehicles >3.5t
+17,1110,No entry
+18,1200,General caution
+19,210,Dangerous curve left
+20,360,Dangerous curve right
+21,330,Double curve
+22,390,Bumpy road
+23,510,Slippery road
+24,270,Road narrows right
+25,1500,Road work
+26,600,Traffic signals
+27,240,Pedestrians
+28,540,Children crossing
+29,270,Bicycles crossing
+30,450,Beware of ice/snow
+31,780,Wild animals crossing
+32,240,End all restrictions
+33,689,Turn right ahead
+34,420,Turn left ahead
+35,1200,Ahead only
+36,390,Go straight or right
+37,210,Go straight or left
+38,2070,Keep right
+39,300,Keep left
+40,360,Roundabout mandatory
+41,240,End no passing
+42,240,End no passing >3.5t

@@ -1,0 +1,97 @@
+{
+  "annotation_files": 43,
+  "annotation_rows": 39209,
+  "raw_column_dtypes": {
+    "Filename": "str",
+    "Width": "str",
+    "Height": "str",
+    "Roi.X1": "str",
+    "Roi.Y1": "str",
+    "Roi.X2": "str",
+    "Roi.Y2": "str",
+    "ClassId": "str"
+  },
+  "missing_values": {
+    "Filename": 0,
+    "Width": 0,
+    "Height": 0,
+    "Roi.X1": 0,
+    "Roi.Y1": 0,
+    "Roi.X2": 0,
+    "Roi.Y2": 0,
+    "ClassId": 0
+  },
+  "duplicate_rows_within_file": 0,
+  "converted_column_dtypes": {
+    "Filename": "str",
+    "Width": "int64",
+    "Height": "int64",
+    "Roi.X1": "int64",
+    "Roi.Y1": "int64",
+    "Roi.X2": "int64",
+    "Roi.Y2": "int64",
+    "ClassId": "int64"
+  },
+  "invalid_numeric_values": {
+    "Width": 0,
+    "Height": 0,
+    "Roi.X1": 0,
+    "Roi.Y1": 0,
+    "Roi.X2": 0,
+    "Roi.Y2": 0,
+    "ClassId": 0
+  },
+  "invalid_class_rows": 0,
+  "invalid_image_paths": 0,
+  "unique_valid_classes": 43,
+  "missing_expected_training_classes": [],
+  "full_training_class_coverage": true,
+  "selected_classes": [
+    0,
+    1,
+    14,
+    17,
+    25
+  ],
+  "seed": 42,
+  "sample_limit_per_class": 500,
+  "sampled_rows": 2210,
+  "processed_images": 2210,
+  "skipped_images": 0,
+  "skip_reasons": {},
+  "roi_status_counts": {
+    "valid": 2210
+  },
+  "annotation_dimension_mismatches": 0,
+  "thresholds": {
+    "strict": {
+      "brightness": 25.76079301480793,
+      "contrast": 11.084584220271081,
+      "sharpness": 115.41838613245305,
+      "min_dimension": 28.0
+    },
+    "baseline": {
+      "brightness": 39.01745746697979,
+      "contrast": 17.09734237403001,
+      "sharpness": 230.7509774471893,
+      "min_dimension": 29.0
+    },
+    "broad": {
+      "brightness": 51.97237004784174,
+      "contrast": 23.329605222997237,
+      "sharpness": 351.9002636575342,
+      "min_dimension": 31.0
+    }
+  },
+  "flag_rates": {
+    "strict": 0.10904977375565611,
+    "baseline": 0.20542986425339366,
+    "broad": 0.3158371040723982
+  },
+  "feature_definitions": {
+    "brightness": "mean grayscale intensity (0–255)",
+    "contrast": "population standard deviation of grayscale intensity (0–255 intensity units)",
+    "sharpness": "variance of CV_64F Laplacian grayscale response (squared response units; proxy only)",
+    "min_dimension": "minimum of actual pixel width and height (pixels)"
+  }
+}
